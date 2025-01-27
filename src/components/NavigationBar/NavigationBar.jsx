@@ -116,7 +116,7 @@ const NavigationBar = () => {
           <ScrollLink to="home" smooth={true} duration={500}><div className="logo-section"><img src={logo} alt="Logo" /></div></ScrollLink>
           <li><ScrollLink to="screenshot" smooth={true} duration={500}>SCREENSHOT</ScrollLink></li>
           <li><ScrollLink to="blog" smooth={true} duration={500}>BLOG</ScrollLink> </li>
-          <ScrollLink to="download" smooth={true} duration={500}><button className='download-button'>Download</button> </ScrollLink>
+          <ScrollLink to="download" smooth={true} duration={500}><button className='download-button'>DOWNLOAD</button> </ScrollLink>
         </ul>
       </div>
 
@@ -155,7 +155,7 @@ THIS IS WHEN MOBILE/TABLET VERION IS ACTIVE */}
         </div>
 
         <div className="mobile-download-section">
-          <ScrollLink to="download" smooth={true} duration={500}>    <button className='download-button'>Download</button> </ScrollLink>
+          <ScrollLink to="download" smooth={true} duration={500}>    <button className='download-button'>DOWNLOAD</button> </ScrollLink>
         </div>
 
         {/* Dropdown Menu */}

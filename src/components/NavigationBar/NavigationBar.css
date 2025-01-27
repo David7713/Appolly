@@ -79,6 +79,10 @@
   cursor: pointer;
 }
 
+.navigation-bar-section ul li :hover {
+  color: #5956E9;
+}
+
 .logo-section {
   width: 200px;
   height: 90px;

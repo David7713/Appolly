@@ -57,7 +57,7 @@ const Blog = () => {
                             </defs>
                         </svg>
                     </div>
-                    <span>INFO@YOUREMAIL.COM</span>
+                    <span>info@youremail.com</span>
                 </div>
 
 
