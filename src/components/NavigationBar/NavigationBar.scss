@@ -1,0 +1,310 @@
+.navigationBar-main-part {
+    width: 1171px;
+    height: 114px;
+    margin-top: 35px;
+    left: 135px;
+}
+
+.navigationBar-contact-section {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigationBar-contact-section ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    gap: 20px;
+    cursor: pointer;
+
+}
+
+.navigationBar-contact-part li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+
+.navigation-bar-section ul {
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background-color: #FFFFFF;
+    width: 1170px;
+    height: 60px;
+    top: 74px;
+    margin-top: 10px;
+    left: 136px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #232233;
+    list-style-type: none;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.logo-section {
+    width: 200px;
+    height: 90px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../assets/logo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.download-button {
+    width: 158px;
+    height: 50px;
+    top: 79px;
+    border-radius: 5px;
+    background: #5956E9;
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+
+
+// MEDIA QUERIES ==============================>
+
+/* Mobile Styles */
+@media screen and (max-width: 680px) {
+    .navigationBar-main-part {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .navigationBar-contact-part,
+    .navigation-bar-section {
+        display: none;
+    }
+
+    .navigationBar-contact-part li {
+        display: none;
+    }
+
+    .navigationBar-contact-section ul {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px;
+        background-color: #FFFFFF;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        width: 343px;
+        height: 40px;
+        border-radius: 3px;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+
+    }
+
+
+    .mobile-header ul {
+        list-style-type: none;
+    }
+
+    .logo-mobile-section {
+        width: 100px;
+        height: 60px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    .logo-mobile-section img {
+        width: 100%;
+    }
+
+    .mobile-download-section .download-button {
+        padding: 8px 16px;
+        font-size: 14px;
+        height: auto;
+        width: auto;
+        min-width: 74px;
+        background: #5956E9;
+        margin-left: 10px;
+        height: 34px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 680px) {
+
+        .burger-menu {
+            font-size: 24px;
+            cursor: pointer;
+            color: #232233;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            transition: all 0.3s ease;
+        }
+
+        .burger-menu:hover {
+            color: #5956E9;
+            transform: scale(1.1);
+        }
+
+
+        .dropdown-menu {
+            position: fixed;
+            top: 60px;
+            left: 0;
+            right: 0;
+            background-color: white;
+            border-radius: 0 0 16px 16px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            padding: 10px 0;
+            z-index: 999 !important;
+            animation: slideDown 0.3s ease-out forwards;
+            transform-origin: top center;
+        }
+
+        .dropdown-menu li {
+            padding: 15px 20px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #232233;
+            text-align: left;
+            border-bottom: 1px solid #f0f0f0;
+            transition: all 0.3s ease;
+            animation: fadeIn 0.3s ease-out forwards;
+            animation-delay: calc(var(--i, 0) * 0.1s);
+            transform: translateY(20px);
+            opacity: 0;
+            z-index: 999 !important;
+        }
+
+        .dropdown-menu li:nth-child(1) {
+            --i: 1;
+        }
+
+        .dropdown-menu li:nth-child(2) {
+            --i: 2;
+        }
+
+        .dropdown-menu li:nth-child(3) {
+            --i: 3;
+        }
+
+        .dropdown-menu li:nth-child(4) {
+            --i: 4;
+        }
+
+        .dropdown-menu li:nth-child(5) {
+            --i: 5;
+        }
+
+        .dropdown-menu li:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown-menu li:hover {
+
+            padding-left: 25px;
+
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px) scaleY(0.95);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0) scaleY(1);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .mobile-header {
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            background-color: rgba(255, 255, 255, 0.95);
+            transition: all 0.3s ease;
+        }
+    }
+
+}
+
+
+
+
+/* Tablet Styles */
+@media screen and (min-width: 681px) and (max-width: 1024px) {
+    .navigationBar-main-part {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .navigation-bar-section ul {
+        width: 100%;
+    }
+
+    .mobile-header {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1025px) {
+    .mobile-header {
+        display: none;
+    }
+}

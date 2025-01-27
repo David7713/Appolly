@@ -1,0 +1,145 @@
+.guide-section {
+    width: 100%;
+    height: 717px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    overflow: visible;
+}
+
+.guide-section-text-part {
+    background-image: url('../../assets/guideBackgroundImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 477px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+}
+
+.guide-section h1 {
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.guide-section p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    max-width: 800px;
+    margin: 0 auto 50px;
+}
+
+.guideImage-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
+.guideImage {
+    width: 770px;
+    height: 319px;
+    border-radius: 10px;
+}
+
+.video-oval {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+
+// MEDIA QUERIES ===========================>
+
+/* Mobile Styles */
+
+@media screen and (max-width: 680px) {
+    .guide-section-text-part {
+        padding: 30px 15px;
+    }
+
+    .guide-section h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-align: center;
+
+
+    }
+
+    .guide-section p {
+        margin-bottom: 30px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+
+
+    }
+
+    .guideImage {
+        width: 100%;
+    }
+
+    .video-oval {
+        width: 40px;
+        height: 40px;
+    }
+
+    .video-oval svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+
+/* Tablet Styles */
+@media screen and (max-width: 1024px) {
+    .guide-section {
+        height: auto;
+    }
+
+    .guide-section-text-part {
+        height: auto;
+        padding: 50px 30px;
+    }
+
+    .guide-section h1 {
+        font-size: 28px;
+    }
+
+    .guide-section p {
+        max-width: 100%;
+    }
+
+    .guideImage {
+        width: 100%;
+        height: auto;
+    }
+
+    .video-oval {
+        width: 50px;
+        height: 50px;
+    }
+}

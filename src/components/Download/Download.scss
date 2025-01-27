@@ -1,0 +1,189 @@
+.download-section {
+    width: 100%;
+    height: 706px;
+    padding: 100px 135px 100px 135px;
+    gap: 80px;
+    display: flex;
+    flex-direction: row;
+}
+
+.download-section-text-part {
+    width: 570px;
+    height: 478px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.download-section-text-part h1 {
+
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    text-align: left;
+    color: #232233;
+
+}
+
+.download-section-text-part p {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: #6C6C72;
+}
+
+.download-section-element-parts {
+    display: flex;
+    flex-direction: row;
+    width: 570px;
+    gap: 60px;
+
+}
+
+.download-section-element-parts div {
+    width: 170px;
+    height: 176px;
+    border-radius: 10px;
+    background-color: #5851EA;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: left;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.download-section-image-part {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.download-section-text-part img {
+    width: 149px;
+    height: 47px;
+}
+
+
+
+// MEDIA QUERIES ===========================>
+
+/* Mobile Styles */
+@media screen and (max-width: 680px) {
+    .download-section {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 16px 50px 16px;
+        gap: 60px;
+        opacity: 0px;
+
+    }
+
+    .download-section-text-part h1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 37.5px;
+        text-align: left;
+        align-items: flex-start;
+        color: #232233;
+
+    }
+
+    .download-section-text-part p {
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #6C6C72;
+
+
+    }
+
+    .download-section-element-parts {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .download-section-image-part img {
+        width: 120px;
+        margin-top: 30px;
+
+
+    }
+
+    .download-section-element-parts div {
+        width: 150px;
+        height: 150px;
+        font-size: 16px;
+        display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+
+
+
+    }
+
+    .download-section img:last-child {
+        width: 100%;
+    }
+}
+
+
+/* Tablet Styles */
+
+@media screen and (max-width: 1024px) {
+    .download-section {
+        flex-direction: column;
+        align-items: center;
+        padding: 50px 30px;
+        height: auto;
+    }
+
+    .download-section-text-part {
+        width: 100%;
+        max-width: 570px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .download-section-text-part h1 {
+        text-align: center;
+    }
+
+    .download-section-text-part p {
+        text-align: center;
+    }
+
+    .download-section-image-part {
+        justify-content: center;
+    }
+
+    .download-section-element-parts {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        width: 100%;
+    }
+
+    .download-section img:last-child {
+        margin-top: 30px;
+        width: 80%;
+        height: auto;
+    }
+}
