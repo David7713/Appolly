@@ -1,9 +1,9 @@
 import React from 'react'
 import './Download.css'
 
-import googlePlay from '../../assets/googlePlay.png'
-import appStore from '../../assets/appStore.png'
-import mobileUi from '../../assets/mobileUi.png'
+import googlePlay from '../../assets/general-assets/googlePlay.png'
+import appStore from '../../assets/general-assets/appStore.png'
+import mobileUi from '../../assets/general-assets/mobileUi.png'
 
 
 const Download = () => {

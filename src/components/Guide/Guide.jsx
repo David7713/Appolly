@@ -1,8 +1,8 @@
 import React from 'react';
 import './Guide.css';
 
-import guideBackgroundImage from '../../assets/guideBackgroundImage.png';
-import guideImage from '../../assets/guideImage.png';
+import guideBackgroundImage from '../../assets/general-assets/guideBackgroundImage.png';
+import guideImage from '../../assets/general-assets/guideImage.png';
 
 const Guide = () => {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.css'
-import mobileMockup from '../../assets/mobileMockup.png'
+import mobileMockup from '../../assets/general-assets/mobileMockup.png'
 
 const About = () => {
   return (

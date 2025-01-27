@@ -1,11 +1,11 @@
 import React from 'react'
 import './Home.css'
-import NavigationBar from '../NavigationBar/NavigationBar'
 
-import backgroundImage from '../../assets/backgroundImage.png'
-import mobileMockup from '../../assets/mobileUiMockUp.png'
-import googlePlay from '../../assets/googlePlay.png'
-import appStore from '../../assets/appStore.png'
+import NavigationBar from '../NavigationBar/NavigationBar'
+import backgroundImage from '../../assets/general-assets/backgroundImage.png'
+import mobileMockup from '../../assets/general-assets/mobileUiMockUp.png'
+import googlePlay from '../../assets/general-assets/googlePlay.png'
+import appStore from '../../assets/general-assets/appStore.png'
 
 
 const Home = () => {

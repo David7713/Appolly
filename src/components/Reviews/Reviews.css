@@ -11,7 +11,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-image: url("../../assets/backgroundImage.png");
+  background-image: url("../../assets/general-assets/backgroundImage.png");
   background-size: cover;
   background-repeat: no-repeat;
   padding: 100px 135px;
